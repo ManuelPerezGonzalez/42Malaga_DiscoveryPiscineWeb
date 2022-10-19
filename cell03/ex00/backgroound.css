@@ -1,0 +1,15 @@
+.button {
+	position:absolute;
+	font-family:verdana;
+	color:white;
+	background-color:black;
+	border-color:white;
+	width:75px;
+	height:45px;
+}
+
+div {
+	text-align:center;
+	position:relative;
+	height:100%;
+}

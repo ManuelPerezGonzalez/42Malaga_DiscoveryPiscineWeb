@@ -1,0 +1,23 @@
+table {
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	border:solid black;
+	border-collapse:collapse;
+}
+tr {
+	border:solid black;
+}
+#cell1 {
+	width:50%;
+	background:#556B2F;
+	border:1px solid black;
+}
+#cell2 {
+	width:50%;
+	background:salmon;
+}

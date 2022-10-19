@@ -1,0 +1,66 @@
+body {
+	background-color:black;
+	border-collapse:collapse;
+	top:0;
+	left:0;
+	border-collapse:collapse;
+	right:0;
+}
+
+.dropdown {
+	padding:16px;
+	width:100hv;
+	top:0;
+	left:0;
+	position:absolute;
+	border-collapse:collapse;
+	right:0;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center center;
+	background-image:url(prado.jpeg);
+}
+
+.dropbtn {
+	background-color:lightgray;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:15px;
+	margin:auto;
+	position:relative;
+	display:block;
+	height:50px;
+	width:110px;
+	border:0px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.dropdown-content {
+	display:none;
+	position:absolute;
+	background-color:#f1f1f1;
+	min-width:160px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+	color:black;
+	padding:12px 16px;
+	display:block;
+}
+
+.dropdown-content a:hover {
+	background-color:#ddd;
+}
+
+.dropbtn:hover .dropdown-content {
+	display:block;
+}
+
+.dropbtn:hover {
+	background-color:lightsteelblue;
+	color:black;
+}

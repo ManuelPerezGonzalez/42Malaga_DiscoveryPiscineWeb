@@ -1,0 +1,35 @@
+body {
+	background-color:black;
+	margin:0;
+}
+
+.MainBlock {
+	color:white;
+	font-size:15px;
+	position:relative;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center center;
+	height:100vh;
+}
+
+#img1 {
+	background-image:url(Perrotes1.png);
+}
+
+#img2 {
+	background-image:url(Perrotes2.png);
+}
+
+.BlackBlock {
+	height:100vh;
+	background-color:black;
+}
+
+body p {
+	position:relative;
+	top:50%;
+	text-align:center;
+	color:white;
+}
